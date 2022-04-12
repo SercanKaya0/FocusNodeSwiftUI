@@ -11,7 +11,7 @@ enum FocusedFieldType {
     case name, surname, city, age
 }
 
-struct ContentView: View {
+struct MultipleFocusNode: View {
     @State private var name: String = ""
     @State private var surname: String = ""
     @State private var city: String = ""
@@ -56,8 +56,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct MultipleFocusNode_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MultipleFocusNode()
     }
 }

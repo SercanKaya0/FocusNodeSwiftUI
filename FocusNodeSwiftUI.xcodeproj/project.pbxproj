@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		5746CBAE2805FFC70040C0D4 /* FocusNodeSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5746CBAD2805FFC70040C0D4 /* FocusNodeSwiftUIApp.swift */; };
-		5746CBB02805FFC70040C0D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5746CBAF2805FFC70040C0D4 /* ContentView.swift */; };
+		5746CBB02805FFC70040C0D4 /* MultipleFocusNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5746CBAF2805FFC70040C0D4 /* MultipleFocusNode.swift */; };
 		5746CBB22805FFC90040C0D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5746CBB12805FFC90040C0D4 /* Assets.xcassets */; };
 		5746CBB52805FFC90040C0D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5746CBB42805FFC90040C0D4 /* Preview Assets.xcassets */; };
+		5746CBBC280605480040C0D4 /* SingleFocusNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5746CBBB280605480040C0D4 /* SingleFocusNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5746CBAA2805FFC70040C0D4 /* FocusNodeSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusNodeSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5746CBAD2805FFC70040C0D4 /* FocusNodeSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusNodeSwiftUIApp.swift; sourceTree = "<group>"; };
-		5746CBAF2805FFC70040C0D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5746CBAF2805FFC70040C0D4 /* MultipleFocusNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleFocusNode.swift; sourceTree = "<group>"; };
 		5746CBB12805FFC90040C0D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5746CBB42805FFC90040C0D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5746CBBB280605480040C0D4 /* SingleFocusNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleFocusNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +54,10 @@
 			isa = PBXGroup;
 			children = (
 				5746CBAD2805FFC70040C0D4 /* FocusNodeSwiftUIApp.swift */,
-				5746CBAF2805FFC70040C0D4 /* ContentView.swift */,
+				5746CBAF2805FFC70040C0D4 /* MultipleFocusNode.swift */,
 				5746CBB12805FFC90040C0D4 /* Assets.xcassets */,
 				5746CBB32805FFC90040C0D4 /* Preview Content */,
+				5746CBBB280605480040C0D4 /* SingleFocusNode.swift */,
 			);
 			path = FocusNodeSwiftUI;
 			sourceTree = "<group>";
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5746CBB02805FFC70040C0D4 /* ContentView.swift in Sources */,
+				5746CBB02805FFC70040C0D4 /* MultipleFocusNode.swift in Sources */,
+				5746CBBC280605480040C0D4 /* SingleFocusNode.swift in Sources */,
 				5746CBAE2805FFC70040C0D4 /* FocusNodeSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

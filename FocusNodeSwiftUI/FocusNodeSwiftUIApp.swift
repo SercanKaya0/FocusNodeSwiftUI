@@ -11,7 +11,7 @@ import SwiftUI
 struct FocusNodeSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MultipleFocusNode()
         }
     }
 }

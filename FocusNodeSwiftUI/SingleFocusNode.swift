@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct SingleFocusNode: View {
+    @State private var name: String = ""
+    @FocusState private var focusType: Bool
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Spacer()
+            TextField("Email", text: $name)
+                .textFieldStyle(.roundedBorder)
+                .focused($focusType)
+            Button("Press Focus") {
+                focusType.toggle()
+            }
+            Spacer()
+        }.padding(.horizontal, 36)
     }
 }
 
